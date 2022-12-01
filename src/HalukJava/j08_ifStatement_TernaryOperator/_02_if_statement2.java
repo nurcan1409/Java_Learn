@@ -10,6 +10,25 @@ public class _02_if_statement2 {
 
         //Kodu aşağıya yazınız.
 
+int a=26;
+int b=35;
+if(a>=b) {
+    System.out.println("a buyuktur");
+}else System.out.println("b buyuktur");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }

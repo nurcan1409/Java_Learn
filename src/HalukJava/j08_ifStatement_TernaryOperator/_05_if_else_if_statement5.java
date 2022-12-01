@@ -11,7 +11,14 @@ public class _05_if_else_if_statement5 {
         Eğer ilk double, ikinci double'dan küçükse "Not Hello World" yazdırın.
         Aksi halde (else) "I love java" yazdırın. */
 
+        double sayı1=90.25;
+        double sayı2=90.25;
+        if (sayı1>=sayı2) {
+            System.out.println("hello woerd");
+        } else if (sayı1<sayı2) {
+            System.out.println("not hello world");
 
+        }else System.out.println("ı love you");
 
 
     }

@@ -14,9 +14,9 @@ public class _18_if_else_statement_find_min {
 
 
         Scanner scan = new Scanner(System.in);
-        int i1 = scan.nextInt();
-        int i2 = scan.nextInt();
-        int i3 = scan.nextInt();
+        int sayı1 = scan.nextInt();
+        int sayı2 = scan.nextInt();
+        int sayı3 = scan.nextInt();
 
         //Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
 

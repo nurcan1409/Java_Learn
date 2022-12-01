@@ -1,5 +1,7 @@
 package HalukJava.j08_ifStatement_TernaryOperator;
 
+import java.util.Scanner;
+
 public class _08_if_else_if_statement8 {
 
     public static void main(String[] args) {
@@ -11,6 +13,18 @@ public class _08_if_else_if_statement8 {
             Aksi halde (else) "Reminder is 0" yazdırınız.  */
 
 
+        Scanner scan =new Scanner(System.in);
+        System.out.println("bır sayı gırınız");
+        int sayı =scan.nextInt();
+        if(33%4==3) {
+            System.out.println("remaınder is3");
+        } else if (sayı%4==2) {
+            System.out.println("remainder is 2");
+
+        } else if (sayı%4==1) {
+            System.out.println("remainder is 1");
+
+        }else System.out.println("remainder is 0");
 
 
     }

@@ -16,6 +16,28 @@ public class _07_if_else_if_statement7 {
 
         //Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
 
+        if(number%2==0) {
+            System.out.println("number is a even ");
+        }else System.out.println("number is a ODD number");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }

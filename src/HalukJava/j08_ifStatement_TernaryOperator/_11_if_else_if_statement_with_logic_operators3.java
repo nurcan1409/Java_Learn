@@ -18,11 +18,15 @@ public class _11_if_else_if_statement_with_logic_operators3 {
 
         //Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
 
-        if (!str.equals("0") && str.length() == 14 && str.contains("i love java")) {
-            System.out.println("String is i love java and 14 character.");
-        } else if (!str.equals("0") && str.equalsIgnoreCase("i love java")) {
-            System.out.println("String is I love java");
+        if(!str.equals("0")&& (str.length()==14) && (str.contains("i love java"))) {
+            System.out.println("strıng ıs i love and 14 character");
+        } else if (!str.equals("0") && str.equalsIgnoreCase(" love java")) {
+            System.out.println("Strıng is ı love java");
+
         }
 
+
     }
-}
+
+    }
+

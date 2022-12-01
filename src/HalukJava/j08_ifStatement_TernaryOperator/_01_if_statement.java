@@ -18,6 +18,23 @@ if(a>b) {
 }else System.out.println("int2 buyuktur");
 */
 
+ if(a>=b) {
+     System.out.println("int 1 is greater than 2");
+ }else System.out.println("int is smaller than 2");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -19,14 +19,19 @@ public class _09_if_else_if_statement_with_logic_operators {
 
         //Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
 
-        if (str.equals("Orange") && str.length() == 6) {
-            System.out.println("Orange has six letters");
-        } else if (str.equals("Apple") && str.length() == 5) {
-            System.out.println("Apple has five letters");
-        } else if (str.contains("Orange") && str.length() > 10) {
-            System.out.println("String contain orange and length is more then 10");
-        }
+      if(str.equals("orange") &&str.length()==6) {
+          System.out.println("orange has sıx letters");
+      } else if (str.equals("apple") &&str.length()==5) {
+          System.out.println("apple has fıve letters");
+
+      } else if (str.contains("orange") && str.length()>10) {
+          System.out.println("Strıng contaın orange and length ıs more then 10");
+
+      }
 
 
     }
+
+
+
 }

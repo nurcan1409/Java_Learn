@@ -1,5 +1,7 @@
 package HalukJava.j08_ifStatement_TernaryOperator;
 
+import java.util.Scanner;
+
 public class _10_if_else_if_statement_with_logic_operators2 {
 
     public static void main(String[] args) {
@@ -8,6 +10,18 @@ public class _10_if_else_if_statement_with_logic_operators2 {
 Eğer int 9'a bölününce kalan 0 ise ve 5'e bölününce kalan 0 ise "Able to divide by 9 and 5" yazdırın.
 Eğer int 4'e bölününce kalan 0 ise ve 5'e bölünüce kalan 0 ise "Able to divide by 4 and 15" yazdırın.
 */
+        Scanner scan =new Scanner(System.in);
+        System.out.println("bır sayı yazınız");
+        int sayı1=60;
+        int sayı=scan.nextInt();
+
+        if((sayı%9==0) && (sayı%5==0)) {
+            System.out.println("able to dıvıde by 9 and 5");
+        } else if ((sayı%4==0) && (sayı%5==0)) {
+            System.out.println("able to dıvıde by 4 and 15");
+
+        }
+
 
     }
 }

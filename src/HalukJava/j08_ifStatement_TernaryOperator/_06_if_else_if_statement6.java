@@ -11,14 +11,35 @@ public class _06_if_else_if_statement6 {
                 Eğer int number 0'dan büyükse "I m positive",
                 Eğer int number 0'dan küçükse "I am negative" yazdırılsın.   */
 
-        Scanner scan = new Scanner(System.in);
+          Scanner scan = new Scanner(System.in);
 
         int number = scan.nextInt();
 
-        //Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
+        //  //Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
+
+       if(number==0) {
+           System.out.println("Im neutral");
+       }else if (number>0) {
+           System.out.println("Im pozıtıve") ;
+       } else System.out.println("Im negatıge");
 
 
 
 
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }  }
