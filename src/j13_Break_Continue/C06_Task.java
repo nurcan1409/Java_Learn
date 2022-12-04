@@ -21,7 +21,7 @@ if(ıfade.charAt(i)=='a') {
 
 }
     System.out.println("cumlede ısleme gıren karakterler:" +ıfade.charAt(i));
-
+    System.out.println("i = " + i);
 
 }
         System.out.println("a sayısı:" +aSayı);
